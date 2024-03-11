@@ -32,3 +32,21 @@ button{
 .main{
     margin-top: 50%;
 }
+
+.ramadan-mubarak {
+    font-size: 32px;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    animation: ramadanAnimation 2s ease-in-out infinite alternate;
+}
+
+@keyframes ramadanAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
